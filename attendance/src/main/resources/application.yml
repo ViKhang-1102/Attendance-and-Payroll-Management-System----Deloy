@@ -1,5 +1,6 @@
 
 # Local development profile using embedded H2.
+# yaml-language-server: $schema=https://raw.githubusercontent.com/spring-projects/spring-boot/main/spring-boot-project/spring-boot-tools/spring-boot-properties-metadata/src/main/resources/META-INF/spring-configuration-metadata.json
 spring:
   config:
     activate:
