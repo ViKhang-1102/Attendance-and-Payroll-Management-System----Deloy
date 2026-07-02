@@ -1,0 +1,12 @@
+{
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "java.import.maven.enabled": true,
+  "maven.executable.preferMavenWrapper": true,
+  "maven.executable.path": "${workspaceFolder}/attendance/mvnw.cmd",
+  "java.project.sourcePaths": [
+    "attendance/target/generated-sources/annotations"
+  ],
+  "yaml.schemas": {
+    "https://raw.githubusercontent.com/spring-projects/spring-boot/main/spring-boot-project/spring-boot-tools/spring-boot-properties-metadata/src/main/resources/META-INF/spring-configuration-metadata.json": "attendance/src/main/resources/application.yml"
+  }
+}
