@@ -46,7 +46,7 @@ public class SecurityConfig {
                 .authorizeHttpRequests(authorize -> authorize
                         .requestMatchers(
                                 "/", "/index.html",
-                                "/api/auth/**",
+                                "/auth/**",
                                 "/uploads/**",
                                 "/swagger-ui/**",
                                 "/v3/api-docs/**",
@@ -80,7 +80,7 @@ public class SecurityConfig {
         return new BCryptPasswordEncoder();
     }
 
-    @Value("${cors.allowed.origins:http://localhost:*}")
+    @Value("${cors.allowed-origins:http://localhost:*}")
     private String corsAllowedOrigins;
 
     @Bean
